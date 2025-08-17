@@ -38,6 +38,7 @@
 #include "colmap/util/timer.h"
 
 #include <fstream>
+#include <numeric>
 
 namespace colmap {
 namespace {

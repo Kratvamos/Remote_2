@@ -29,6 +29,7 @@
 
 #include "colmap/controllers/option_manager.h"
 
+#include "colmap/controllers/feature_extraction.h"
 #include "colmap/controllers/image_reader.h"
 #include "colmap/controllers/incremental_pipeline.h"
 #include "colmap/estimators/bundle_adjustment.h"
@@ -38,7 +39,7 @@
 #include "colmap/math/random.h"
 #include "colmap/mvs/fusion.h"
 #include "colmap/mvs/meshing.h"
-#include "colmap/mvs/patch_match_options.h"
+#include "colmap/mvs/patch_match.h"
 #include "colmap/ui/render_options.h"
 #include "colmap/util/file.h"
 #include "colmap/util/version.h"
